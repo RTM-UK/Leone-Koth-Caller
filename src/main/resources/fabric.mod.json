@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "kothcall",
+  "version": "1.0.0",
+  "name": "KOTH Call",
+  "description": "Client-side KOTH Discord webhook caller.",
+  "authors": [
+    "YourName"
+  ],
+  "environment": "client",
+
+  "entrypoints": {
+    "client": [
+      "com.example.kothcall.KothCallClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
