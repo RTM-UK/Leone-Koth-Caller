@@ -5,7 +5,7 @@
   "name": "KOTH Call",
   "description": "Client-side KOTH Discord webhook caller.",
   "authors": [
-    "YourName"
+    "RTM"
   ],
   "environment": "client",
 
