@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "leone_koth_caller",
+  "version": "${version}",
+  "name": "Leone Koth Caller",
+  "description": "Discord webhook-based KOTH calls with team management and inventory screenshots.",
+  "authors": ["Leone"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.leone.kothcaller.KothCallerMod"
+    ],
+    "client": [
+      "com.leone.kothcaller.KothCallerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": ">=1.21.11",
+    "java": ">=21"
+  }
+}

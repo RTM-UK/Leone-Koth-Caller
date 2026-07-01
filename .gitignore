@@ -1,0 +1,14 @@
+/build/
+.gradle/
+/.idea/
+/.vscode/
+*.iml
+*.class
+*.log
+*.tmp
+.DS_Store
+.gradle*
+out/
+.gradle-cache/
+*/build/
+**/build/
